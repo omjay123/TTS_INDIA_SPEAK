@@ -1,0 +1,6 @@
+torch
+torchaudio
+pandas
+matplotlib
+onnx
+onnxruntime
