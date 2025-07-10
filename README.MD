@@ -5,7 +5,7 @@ A lightweight **Text-to-Speech (TTS)** engine generating **natural Tamil speech*
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - **Sampling Rate**: 24 kHz  
 - **Model Size**: ≤ 6 MB  
@@ -101,22 +101,6 @@ python src/optimization_model.py
 
 Use ONNX Runtime or a separate script to load and run the optimized model. You can replace the `infer.py` pipeline with ONNX-based inference if targeting mobile or edge devices.
 
----
-
-## Input Format (Latin Tamil)
-
-Use **Latin-transliterated Tamil** (not Tamil Unicode) for text input.
-
-**Examples**:
-
-* `"vanakkam"`
-* `"neenga eppadi irukkiringa"`
-* `"en per rajaa"`
-* `"nandri"`
-
-> ⚠️ Note: Unicode Tamil characters (e.g., வணக்கம்) are **not supported** in this POC.
-
----
 
 ## Optimization Techniques Used
 
