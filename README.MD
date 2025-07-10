@@ -14,7 +14,7 @@ A lightweight **Text-to-Speech (TTS)** engine generating **natural Tamil speech*
 
 ## Folder Structure
 
-
+```
 
 TTS\_India\_Speak/
 ├── data/
@@ -32,8 +32,7 @@ TTS\_India\_Speak/
 │   ├── utils.py                        # Griffin-Lim vocoder
 │   ├── optimization\_model.py           # Full optimization pipeline
 │   └── onnx\_export.py                  # ONNX export logic (called by optimization\_model)
-├── README.md                           # You're here!
-
+├── README.md                           
 ```
 
 ---
