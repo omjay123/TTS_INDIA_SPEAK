@@ -1,4 +1,3 @@
-```markdown
 # 🇮🇳 IndiaSpeaks Tamil TTS – Proof of Concept
 
 A lightweight **Text-to-Speech (TTS)** engine generating **natural Tamil speech** for **low-power mobile devices** using a Tacotron-style model trained on a toy dataset.
@@ -35,7 +34,6 @@ TTS\_India\_Speak/
 │   └── onnx\_export.py                  # ONNX export logic (called by optimization\_model)
 ├── README.md                           # You're here!
 ```
-````
 
 ---
 
@@ -53,12 +51,6 @@ pip install -r requirements.txt
 ---
 
 ## Pipeline: Train → Infer → Optimize → Re-Infer
-
-### 📥 Dataset Download
-
-Download [toy_tts_parallel_data.csv](https://drive.google.com/file/d/1s3R6XocPRRjNVj-5d1iDkdN7w3mAYJvM/view)  
-Place it inside the `data/` directory manually.
-
 
 ### Step 1️⃣: Train the Model
 
