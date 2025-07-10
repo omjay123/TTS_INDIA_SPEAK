@@ -34,7 +34,7 @@ TTS\_India\_Speak/
 │   └── onnx\_export.py                  # ONNX export logic (called by optimization\_model)
 ├── README.md                           # You're here!
 
-````
+```
 
 ---
 
