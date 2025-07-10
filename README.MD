@@ -1,4 +1,3 @@
-```markdown
 # 🇮🇳 IndiaSpeaks Tamil TTS – Proof of Concept
 
 A lightweight **Text-to-Speech (TTS)** engine generating **natural Tamil speech** for **low-power mobile devices** using a Tacotron-style model trained on a toy dataset.
@@ -34,7 +33,7 @@ TTS\_India\_Speak/
 │   ├── optimization\_model.py           # Full optimization pipeline
 │   └── onnx\_export.py                  # ONNX export logic (called by optimization\_model)
 ├── README.md                           # You're here!
-```
+
 ````
 
 ---
